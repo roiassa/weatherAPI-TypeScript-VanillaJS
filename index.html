@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/dist.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <title>Local Weather</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="location-wrapper">
+            <p id="location"></p>
+        </div>
+        <button type="button" id="change-unit" class="change-temp-button">Change Temperature unit</button>
+        <div class="temp-unit-wrapper">
+            <p>Temp unit:</p>
+            &nbsp;
+            <p id="type">Celsius</p>
+        </div>
+        <div class="temp-wrapper">
+            <p>Temp:</p>
+            &nbsp;
+            <p id="temp"></p>
+        </div>
+        <div class="weather-wrapper">
+            <p>Today's weather:</p>
+            &nbsp;
+            <p id="weather"></p>
+        </div>
+        <div class="icon-wrapper">
+            <img id="icon" />
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>

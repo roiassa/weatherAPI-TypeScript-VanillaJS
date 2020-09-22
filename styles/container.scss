@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+
+    .location-wrapper {
+        font-weight: bold;
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+
+    .change-temp-button {
+        border-style: none;
+        padding: 5px;
+        border-radius: 5px 5px 5px 5px;
+        background-color: aqua;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .temp-unit-wrapper,
+    .temp-wrapper,
+    .icon-wrapper,
+    .weather-wrapper {
+        display: flex;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+}
